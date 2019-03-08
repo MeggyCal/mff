@@ -5,11 +5,18 @@
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{amssymb}
-\usepackage{ dsfont }
+\usepackage{dsfont}
+\usepackage{pdfpages}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage[font=small,labelfont=bf]{caption}
+\usepackage[bottom]{footmisc}
 
 \renewcommand{\labelenumi}{(\alph{enumi})}
+\setlength{\parskip}{1em}
 
-\title{Úvod do komplexní algebry na žofínském prostoru}
+\setlength{\parindent}{0in}
+
+\title{\textbf{Úvod do komplexní algebry na žofínském prostoru}}
 \date{}
 
 \begin{document}
@@ -27,10 +34,11 @@ Nehť $\Delta T$ je časový interval
 $$
 \Delta T := [d(r). m(r). r 19:30 h; (d(r) + 1). m(r): r 2:00 h].
 $$
-Označme T jednorozměrný čas a $Ž_3$ třídimensionální prostor paláce Žofín, Slovanský ostrov 226, Praha 1. Potom žofínský časoprostor $Ž$ je čtyřrozměrný prostor definovaný
-direktním součtem $Ž = Ž_3 \oplus T$ , který splňuje:\\
+Označme T jednorozměrný čas a $\check{\mathcal{Z}}_3$ třídimensionální prostor paláce Žofín,
+Slovanský ostrov 226, Praha 1. Potom žofínský časoprostor $\check{\mathcal{Z}}$ je čtyřrozměrný prostor definovaný
+direktním součtem $\check{\mathcal{Z}} = \check{\mathcal{Z}}_3 \oplus T$ , který splňuje:\\
 \begin{enumerate}
-\item žofínský časoprostor je nad Vltavou, přičemž prostor $Ž_3$ je nad Vltavou skoro jistě;
+\item žofínský časoprostor je nad Vltavou, přičemž prostor $\check{\mathcal{Z}}_3$ je nad Vltavou skoro jistě;
 \item v intervalu $\Delta T$ je žofínský časoprostor otevřený, jinak je uzavřený;
 \item žofínský časoprostor je normovaný (se standardní normou společenského hování);
 \item žofínský časoprostor je dobře a úplně definovaný.
@@ -39,186 +47,186 @@ direktním součtem $Ž = Ž_3 \oplus T$ , který splňuje:\\
 
 \textbf{Definice 2}
 (Abstraktní žofínský prostor, zkr. žofínský prostor).
-Symbolem C označujme těleso komplexníh čísel. Potom $Ž_{C}^r$ nazveme
+Symbolem C označujme těleso komplexníh čísel. Potom $\check{\mathcal{Z}}_{C}^r$ nazveme
 abstraktní žofínský prostor nad tělesem komplexníh čísel
 (zkráeně žofínský prostor), který splòuje:
 \begin{enumerate}
-\item $ Ž_C^r$ je omezený;
-\item $Ž_C^r$ je dobře definovaný pro daný rok r.
+\itemsep0em 
+\item $\check{\mathcal{Z}}_C^r$ je omezený;
+\item $\check{\mathcal{Z}}_C^r$ je dobře definovaný pro daný rok r.
 \end{enumerate}
 
 
 \textbf{Definice 3}
 (Struktura žofínského časoprostoru).
-Označme podprostory $Ž$ následovně:
+Označme podprostory $\check{\mathcal{Z}}$ následovně:
 \begin{enumerate}
-\item $R, R \subset Ž$, RYTÍŘSKÝ sál paláce Žofín,
-\item $M, M \subset Ž$, MALÝ sál paláec Žofín,
-\item $W, W \subset Ž$, ZIMNÍ ZAHRADA paláce Žofín,
-\item $H, H \subset Ž$, HLAVNÍ sál paláec Žofín,
-\item $P, P \subset Ž$, PŘÍSÁLÍ hlavního sálu paláce Žofín,
-\item $S, S \subset Ž$, PRIMÁTORSKÝ SALÓNEK paláce Žofín,
-\item $G, G \subset Ž$, GALERIE paláce Žofín a konečně
-\item $U, U \subset Ž$, MUŠLE paláce Žofín.
+\itemsep0em 
+\item $\mathcal{R}, \mathcal{R} \subset \check{\mathcal{Z}}$, RYTÍŘSKÝ sál paláce Žofín,
+\item $\mathcal{M}, \mathcal{M} \subset \check{\mathcal{Z}}$, MALÝ sál paláce Žofín,
+\item $\mathcal{H}, \mathcal{H} \subset \check{\mathcal{Z}}$, HLAVNÍ sál paláce Žofín,
+\item $\mathcal{P}, \mathcal{P} \subset \check{\mathcal{Z}}$, PŘÍSÁLÍ hlavního sálu paláce Žofín,
+\item $\mathcal{S}, \mathcal{S} \subset \check{\mathcal{Z}}$, PRIMÁTORSKÝ SALÓNEK paláce Žofín,
+\item $\mathcal{G}, \mathcal{G} \subset \check{\mathcal{Z}}$, GALERIE paláce Žofín a konečně
+\item $\mathcal{U}, \mathcal{U} \subset \check{\mathcal{Z}}$, MUŠLE paláce Žofín.
 \end{enumerate}
-Označme dále $\Pi$ libovolně zvolený podprostor $Ž$
-z podprostorù definovanýh v (a) až (h).
-Nehť $\sum$ je libovolný pevně zvolený stùl žofínského časoprostoru z borelovského systému
-stolù $S$ určenýh pro návštěvníky plesu. Potom platí
+Označme dále $\Pi$ libovolně zvolený podprostor $\check{\mathcal{Z}}$
+z podprostorů definovanýh v (a) až (g).
+Nehť $\Sigma$ je libovolný pevně zvolený stůl žofínského časoprostoru z borelovského systému \footnote{Prosíme, neověřujte uzavřenost na sjednoení!}
+stolů $S$ určenýh pro návštěvníky plesu. Potom platí
 $$
-\forall r \in N \forall \sum \in S \exists ! \Pi \subset Ž : \sum \in \Pi
+\forall r \in N \forall \Sigma \in S \exists ! \Pi \subset \check{\mathcal{Z}} : \Sigma \in \Pi
 $$
-
-%1Prosíme, neověřujte uzavřenost na sjednoení!    todo
-
-2
-(To znamená, že každý stùl $\sum$ se vždy nahází právě v jednom z podprostorù definovanýh
-v seznamu (a){(h).)
+(To znamená, že každý stůl $\Sigma$ se vždy nahází právě v jednom z podprostorů definovanýh
+v seznamu (a)-(g).)
 
 
 \textbf{Značení.}
-Nehť $s \in Ž^r_C$. Symbolem $\Im(s)$ rozumíme imaginární část a $\Re(s)$ reálnou část
+Nehť $s \in \check{\mathcal{Z}}^r_C$. Symbolem $\Im(s)$ rozumíme imaginární část a $\Re(s)$ reálnou část
 komplexního čísla $s$.
 
 
 \textbf{Definice 4}
 (Struktura žofínského prostoru).
-Nehť $s \in \mathcal{Z}^r_C$. Nehť $\Im(s) > 0$. Potom pro
-každý stùl $\sum \in \mathfrak{S}$ platí:
+Nehť $s \in \check{\mathcal{Z}}^r_C$. Nehť $\Im(s) > 0$. Potom pro
+každý stůl $\Sigma \in \mathfrak{S}$ platí:
 \begin{enumerate}
-\item $\Re(s) = 10 \Leftrightarrow \sum \in \mathcal{R}$;
-\item $\Re(s) = 0 \Leftrightarrow \sum \in \mathcal{M}$;
-\item $\Re(s) = 10 \Leftrightarrow \sum \in \mathcal{P}$;
-\item $\Re(s) = 11 \Leftrightarrow \sum \in \mathcal{H}$;
-\item $\Re(s) = 12 \Leftrightarrow \sum \in \mathcal{S}$;
-\item $\Re(s) = 20 \Leftrightarrow \sum \in \mathcal{G}$;
-\item $\Re(s) = 21 \Leftrightarrow \sum \ině \mathcal{U}$.
+\itemsep0em 
+\item $\Re(s) = -10 \Leftrightarrow \Sigma \in \mathcal{R}$;
+\item $\Re(s) = 0 \Leftrightarrow \Sigma \in \mathcal{M}$;
+\item $\Re(s) = 10 \Leftrightarrow \Sigma \in \mathcal{P}$;
+\item $\Re(s) = 11 \Leftrightarrow \Sigma \in \mathcal{H}$;
+\item $\Re(s) = 12 \Leftrightarrow \Sigma \in \mathcal{S}$;
+\item $\Re(s) = 20 \Leftrightarrow \Sigma \in \mathcal{G}$;
+\item $\Re(s) = 21 \Leftrightarrow \Sigma \ině \mathcal{U}$.
 \end{enumerate}
-Označíme-li dále $\pi(\Pi)$ celkový počet stolù v podprostoru $\Pi$, potom platí
+Označíme-li dále $\pi(\Pi)$ celkový počet stolů v podprostoru $\Pi$, potom platí
 $$
-\forall s \in Z^r_{\mathds{C}} \forall \sum \in (\mathfrak{S} \cap \Pi) : \Im(s) \in \{1, 2, ..., \pi(\Pi)\}.
+\forall s \in \check{\mathcal{Z}}^r_{\mathds{C}} \forall \Sigma \in (\mathfrak{S} \cap \Pi) : \Im(s) \in \{1, 2, ..., \pi(\Pi)\}.
 $$
 
 
 \textbf{Definice 5}
-(Značení vstupenek na ples)
-Označme $\Lambda r$ množinu všech vstupenek na ples
-v roce r. Nehť funke $n(\sum)$ : $\mathfrak{S}$ ! N určuje počet židlí u stolu $\sum$. Speciálně pro $\sum$ = ;
+(Značení vstupenek na ples).
+Označme $\Lambda_r$ množinu všech vstupenek na ples
+v roce $r$. Nehť funkce $n(\Sigma) : \mathfrak{S} \rightarrow \mathds{N}$
+určuje počet židlí u stolu $\Sigma$. Speciálně pro $\Sigma = \emptyset $
 určuje počet vstupenek na stání. Potom platí
-$
-\forall r \in N \forall \sum ïn \mathfrak{S} \exists I_{\sum} = \{1; 2; : : : ; n(\sum)\}
-$
-tak, že 
-$
-\forall i \in I \sum \exists! \lambda\sum;i
-$
-r 2 r
-a vstupenka $\lambda\sum;i$
-r má všehny náležitosti definované spolkem Matfyzák pro rok r. Naví
-je-li $\sum 6= ;,$ pak platí:
+$$
+\forall r \in \mathds{N} \forall \Sigma \mathfrak{S} \exists \mathcal{I}_{\Sigma} = \{1, 2,...,n(\Sigma)\} 
+\text{tak, že} 
+\forall i \in \mathcal{I}_\Sigma \exists! \lambda^{\Sigma, i}_r \in \Lambda_r
+$$
+a vstupenka $\lambda^{\Sigma, i}_r$ má všehny náležitosti definované spolkem Matfyzák pro rok $r$.
+Navíc, je-li $\Sigma \neq \emptyset$ pak platí:
 \begin{enumerate}
-\item na každé vstupene $\lambda\sum;i$
-r
-je uvedeno číslo $s 2 Z^r_C$
-, které závisí na $\sum$, nikoli na i;
+\item na každé vstupence $\lambda^{\Sigma, i}_r$
+je uvedeno číslo $s \in \check{\mathcal{Z}}^r_\mathds{C}$, které závisí na $\Sigma$, nikoli na $i$;
 \item $\Re(s)$ určuje příslušný podprostor $\Pi$;
-\item =(s) určuje návštěvníkem vybrané číslo stolu v podprostoru $\Pi$.
+\item $\mathfrak{S}(s)$ určuje návštěvníkem vybrané číslo stolu v podprostoru $\Pi$.
 \end{enumerate}
 
 
 \textbf{Lemma 1}. Existuje prosté zobrazení (abstraktního) žofínského prostoru
-$Z^r_{\mathds{C}}$ na žofínský
-časoprostor $Z$
-
+$\check{\mathcal{Z}}^r_{\mathds{C}}$ na žofínský časoprostor $\check{\mathcal{Z}}$
+\par
 \textit{Důkaz.}
-Dùkaz si laskavý čtenář provede sám za domácí vičení.
+Důkaz si laskavý čtenář provede sám za domácí cvičení.
 
 
 \textbf{Lemma 2}
 (Brom-Kavalír).
-Nehť $s \in Z^r_{\mathds{C}}$
-Označme p 2 f1; 0; 1; 2g patro Žofínského
-paláce (v rozumném slova smyslu, kde p = 0 značí přízemní podprostor časoprostoru $Z$).
-Potom stùl $\sum$ najdeme v p-tém patře, kde
-$p =<(s)10:$
-Zde bx značí dolní elou část reálného čísla x.
-
+Nehť $s \in \check{\mathcal{Z}}^r_{\mathds{C}}$.
+Označme $p \in \{-1, 0, 1, 2\}$ patro Žofínského
+paláce (v rozumném slova smyslu, kde $p = 0$ značí přízemní podprostor časoprostoru $\check{\mathcal{Z}}$).
+Potom stůl $\Sigma$ najdeme v p-tém patře, kde
+$$
+p =  \left\lfloor \frac{\Re (s)}{10} \right\rfloor
+$$
+Zde $\lfloor x \rfloor$ značí dolní celou část reálného čísla x.
+\par
 \textit{Důkaz.}
-Dùkaz plyne z definice. (Konkrétně definice 4 a intuitivní definice þpatra.
+Důkaz plyne z definice. (Konkrétně definice 4 a intuitivní definice "patra".)
 
 
 \textbf{Věta 1}
-(O stále pohybujíím matfyzákovi)
+(O stále pochybujícím matfyzákovi).
 Žofínský prostor je dobře definovaný.
-
+\par
 \textit{Důkaz.}
 Je zřejmý. (Návod: použijte definie a lemma 6!)
 
 
 \textbf{Věta 2}
 (Jirotkova plesová).
-Existuje bijeke $\sigma : Z^r_{\mathds{C}}$
-$\mathfrak{S}$, s 7! $\sum$. V případě =(s) = 0
-nemá návštěvník plesu nárok na sezení u stolu v žádném podprostoru $\Pi$ a $\sigma(0) = ;$. číslo s
-nazýváme číslem stolu.
-
+Existuje bijeke $\sigma : \check{\mathcal{Z}}^r_{\mathds{C}} \leftarrow \mathfrak{S}, s \mapsto \Sigma$.
+V případě $\Im(s) = 0$, nemá návštěvník plesu nárok na sezení u
+stolu v žádném podprostoru $\Pi$ a $\sigma(0) = \emptyset$. Číslo s nazýváme číslem stolu.
+\par
 \textit{Důkaz.}
-Dùkaz je triviální. (Plyne takřka ihned z definie 5 a lemmatu 6.)%todo obr
-Císla vstupenek v Gaussově rovině  Schématické znázornění podprostoru Mušle %todo obr
-$igma$
-Obr. 1. Bijeke $\sigma$ pro několik hodnot s
+Důkaz je triviální. (Plyne takřka ihned z definie 5 a lemmatu 6.)
 
+\begin{center}
+\includegraphics[scale=0.95]{bijekce.pdf}
+\captionof{figure}{Bijekce $\sigma$ pro několik hodnot $s$}
+\end{center}
 
-\textbf{Věta 3} (Euler). Pro každé $x 2 R a y 2 R$ platí
+\textbf{Věta 3} (Euler). Pro každé $x \in R$ a $y \in R$ platí
 $$
-e x+iy = e x (os y + i sin y) 
+e^{x+iy} = e^x (\cos y + i \sin y) 
 $$
-
+\par
 \textit{Důkaz.}
-Dùkaz je na deštivý víkend, resp. na dva semestry.
+Důkaz je na deštivý víkend, resp. na dva semestry.
 
 
-\textbf{Definice 6} (Značení stolù). Na každém stolu $\sum \in \mathfrak{S}$ je v souladu s větou 9 uvedeno
-číslo stolu s v přesném tvaru s =$\Re(s) + =(s) i$, které je vidět jen z určitého směru a dokud
-jej někdo neodstraní. Z jiné strany stolu mùže být uvedeno číslo stolu naví v alternativním
-zápisu téhož komplexního čísla s s možnou zaokrouhlovaí hybou.
+\textbf{Definice 6}
+(Značení stolů).
+Na každém stolu $\Sigma \in \mathfrak{S}$ je v souladu s větou 9 uvedeno
+číslo stolu s v přesném tvaru $s = \Re(s) + \Im(s) i$, které je vidět jen z určitého směru a dokud
+jej někdo neodstraní. Z jiné strany stolu může být uvedeno číslo stolu navíc v alternativním
+zápisu téhož komplexního čísla $s$ s možnou zaokrouhlovaí chybou.
 
 
-\textbf{Věta 4} (Hledání stolu). Nehť $(s) > 0$. Potom se matfyzák transportuje do správného
-patra p Žofínského paláe pod le lemmatu 7 a do příslušného podprostoru $\Pi$ s použitím
-definie 4, kde pod le definie 11 bude hledat stùl číslo s. (U stolu si zvolí žid li pod le
+\textbf{Věta 4}
+(Hledání stolu).
+Nechť $\Im(s) > 0$. Potom se matfyzák transportuje do správného
+patra p Žofínského paláe podle lemmatu 7 a do příslušného podprostoru $\Pi$ s použitím
+definie 4, kde podle definie 11 bude hledat stůl číslo $s$. (U stolu si zvolí židli podle
 vlastního přání.)
-
+\par
 \textit{Důkaz.}
-Dùkaz je za þplesové vičení.
+Důkaz je za "plesové" cvičení.
 
 
-\textbf{Věta 5} (O zoufalém tanečníkovi). Zoufalý tanečník nemohouí najít svùj stùl použije
-větu 10 či znovu si přečte definii 11 a prozkoumá značení stolù z jiného pohledu.
-
+\textbf{Věta 5}
+(O zoufalém tanečníkovi).
+Zoufalý tanečník nemohouí najít svůj stůl použije
+větu 10 či znovu si přečte definici 11 a prozkoumá značení stolů z jiného pohledu.
+\par
 \textit{Důkaz.}
-Dùkaz je zřejmý.
+Důkaz je zřejmý.
 
 
-\textbf{Věta 6} (O zoufalém filosofovi). Nehť filosof zná číslo s 2 $Z^r_{\mathds{C}}$
-, příp. má vstupenku $\lambda 2r$
- s tímto číslem. Nehť na matfyzákém plese (v časoprostoru $Z$)
- je alespoò jeden matfyzák. Potom zoufalý filosof zvládne nalézti stùl, jemuž přísluší číslo s.
-Nyní předvedeme konstruktivní dùkaz věty. Hlavní trik spočívá v tom, že záležitost
+\textbf{Věta 6} (O zoufalém filosofovi). Nehť filosof zná číslo $s \in \check{\mathcal{Z}}^r_{\mathds{C}}$,
+příp. má vstupenku $\lambda \in \Lambda_r$ s tímto číslem. Nechť na matfyzákém plese (v časoprostoru $\check{\mathcal{Z}}$)
+je alespoò jeden matfyzák. Potom zoufalý filosof zvládne nalézti stůl, jemuž přísluší číslo $s$.
+\par
+Nyní předvedeme konstruktivní důkaz věty. Hlavní trik spočívá v tom, že záležitost
 elegantně převedeme na snadno řešitelný problém.
-
+\par
 \textit{Důkaz.}
-Předpokládáme, že v žofínském časoprostoru $Z$
-je alespoò jeden matfyzák (což je
-zřejmě splněno z předpokladu věty), a současně víme, že počet návštěvníkù v $Z$
-je konečný
-(pokud to neplyne z definie, plyne to z požárníh předpisù). Proto zoufalý filosof na jde
-matfyzáka v konečném čase, bude-li hledat šikovným zpùsobem, tj. každého hosta se zeptá
-nejvýše jednou. Následně matfyzáka poprosí o pomo s hledáním svého stolu a ukáže mu
-vstupenku, resp. sdělí požadované číslo stolu s. Když matfyzák zná číslo s, vyřeší problém
+Předpokládáme, že v žofínském časoprostoru $\check{\mathcal{Z}}$ je alespoò jeden matfyzák
+(což je zřejmě splněno z předpokladu věty), a současně víme,
+že počet návštěvníků v $\check{\mathcal{Z}}$ je konečný
+(pokud to neplyne z definie, plyne to z požárníh předpisů). Proto zoufalý filosof najde
+matfyzáka v konečném čase, bude-li hledat šikovným způsobem, tj. každého hosta se zeptá
+nejvýše jednou. Následně matfyzáka poprosí o pomoc s hledáním svého stolu a ukáže mu
+vstupenku, resp. sdělí požadované číslo stolu $s$. Když matfyzák zná číslo $s$, vyřeší problém
 podle věty 12, popřípadě věty 13. Správné řešení sdělí zoufalému filosovovi (samozřejmě
-tak, aby jej pohopil), popř. ho ke stolu s dovede (jsme přee na Žofíně, který je normovaný
-podle definie 1 ()!). Tak se zoufalý filosof elý šťastný dostane ke stolu $\sigma(s)$. Q.E.D.2
+tak, aby jej pochopil), popř. ho ke stolu s dovede (jsme přece na Žofíně, který je normovaný
+podle definie 1 (c)!). Tak se zoufalý filosof celý šťastný dostane ke stolu $\sigma(s)$. Q.E.D.
+\footnote{Quod Erat Demonstrandum - Což bylo dokázati}
 
 
 
