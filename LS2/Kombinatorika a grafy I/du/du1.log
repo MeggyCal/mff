@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.10)  8 MAR 2019 23:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.10)  9 MAR 2019 22:25
 entering extended mode
 **./du1.tex
 (du1.tex
@@ -442,10 +442,10 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 {C:/Users/NOGARE/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 (du1.aux) ) 
 Here is how much of TeX's memory you used:
- 1416 strings out of 493312
- 15581 string characters out of 3129392
- 68958 words of memory out of 3000000
- 4996 multiletter control sequences out of 15000+200000
+ 1417 strings out of 493312
+ 15590 string characters out of 3129392
+ 69958 words of memory out of 3000000
+ 4997 multiletter control sequences out of 15000+200000
  6549 words of font info for 26 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  27i,4n,24p,222b,109s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -459,7 +459,7 @@ ARE/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb>
 cm/cmr7.pfb><C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
 ic/amsfonts/cm/cmsy10.pfb><C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/fo
 nts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on du1.pdf (1 page, 70757 bytes).
+Output written on du1.pdf (1 page, 75454 bytes).
 PDF statistics:
  38 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
