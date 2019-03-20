@@ -2,6 +2,7 @@
   "name": "",
   "version": "0.1.0",
   "description": "",
+  "author": "David Napravnik",
   "scripts": {
     "dev": "webpack --color --progress --mode development",
     "dist": "webpack --color --progress --mode production",
