@@ -15,17 +15,20 @@ namespace Benchmarky
     {
         static void Main(string[] args)
         {
-            var add = BenchmarkRunner.Run<AddTests>();
-            //BenchmarkRunner.Run<SubtractTests>();
-            //BenchmarkRunner.Run<MultiplyTests>();
-            //BenchmarkRunner.Run<DivideTests>();
+            List<BenchmarkDotNet.Reports.Summary> reports = new List<BenchmarkDotNet.Reports.Summary>();
+            reports.Add(BenchmarkRunner.Run<AddTests>());
+            reports.Add(BenchmarkRunner.Run<SubtractTests>());
+            reports.Add(BenchmarkRunner.Run<MultiplyTests>());
+            reports.Add(BenchmarkRunner.Run<DivideTests>());
 
-            
-            Console.WriteLine("Table=========================================================");
-            Console.WriteLine(add.Table.FullContent[0][0]);
-            Console.WriteLine("TotalTime======================================================");
-            Console.WriteLine(add.TotalTime);
+            //Console.Clear();
 
+            foreach (var report in reports)
+            {
+                Console.WriteLine(report.Title);
+                foreach (var row in report.Table.FullContent)
+                    Console.WriteLine(String.Format("    {0, -20}:  {1}", row[0], row[41]));                
+            }
 
             while (true)
             {
@@ -46,7 +49,7 @@ namespace Benchmarky
             var f1 = new Fixed<Q24_8>(a);
             var f2 = new Fixed<Q24_8>(b);
             var f3 = f1.Add(f2);
-        }/*
+        }
         [Benchmark]
         public void Q16_16Test()
         {
@@ -74,7 +77,7 @@ namespace Benchmarky
             var f1 = (double)a;
             var f2 = (double)b;
             var f3 = f1 + f2;
-        }*/
+        }
     }
     public class SubtractTests
     {
