@@ -1,0 +1,202 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+using Cuni.Arithmetics.FixedPoint;
+
+using BenchmarkDotNet.Attributes;
+using BenchmarkDotNet.Running;
+
+namespace Benchmarky
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            var add = BenchmarkRunner.Run<AddTests>();
+            //BenchmarkRunner.Run<SubtractTests>();
+            //BenchmarkRunner.Run<MultiplyTests>();
+            //BenchmarkRunner.Run<DivideTests>();
+
+            
+            Console.WriteLine("Table=========================================================");
+            Console.WriteLine(add.Table.FullContent[0][0]);
+            Console.WriteLine("TotalTime======================================================");
+            Console.WriteLine(add.TotalTime);
+
+
+            while (true)
+            {
+                Console.ReadKey();
+            }
+        }
+    }
+
+
+    public class AddTests
+    {
+        int a = 2;
+        int b = 3;
+
+        [Benchmark]
+        public void Q24_8Test()
+        {
+            var f1 = new Fixed<Q24_8>(a);
+            var f2 = new Fixed<Q24_8>(b);
+            var f3 = f1.Add(f2);
+        }/*
+        [Benchmark]
+        public void Q16_16Test()
+        {
+            var f1 = new Fixed<Q16_16>(a);
+            var f2 = new Fixed<Q16_16>(b);
+            var f3 = f1.Add(f2);
+        }
+        [Benchmark]
+        public void Q8_24Test()
+        {
+            var f1 = new Fixed<Q8_24>(a);
+            var f2 = new Fixed<Q8_24>(b);
+            var f3 = f1.Add(f2);
+        }
+        [Benchmark]
+        public void FloatTest()
+        {
+            var f1 = (float)a;
+            var f2 = (float)b;
+            var f3 = f1 + f2;
+        }
+        [Benchmark]
+        public void DoubleTest()
+        {
+            var f1 = (double)a;
+            var f2 = (double)b;
+            var f3 = f1 + f2;
+        }*/
+    }
+    public class SubtractTests
+    {
+        int a = 2;
+        int b = 3;
+
+        [Benchmark]
+        public void Q24_8Test()
+        {
+            var f1 = new Fixed<Q24_8>(a);
+            var f2 = new Fixed<Q24_8>(b);
+            var f3 = f1.Subtract(f2);
+        }
+        [Benchmark]
+        public void Q16_16Test()
+        {
+            var f1 = new Fixed<Q16_16>(a);
+            var f2 = new Fixed<Q16_16>(b);
+            var f3 = f1.Subtract(f2);
+        }
+        [Benchmark]
+        public void Q8_24Test()
+        {
+            var f1 = new Fixed<Q8_24>(a);
+            var f2 = new Fixed<Q8_24>(b);
+            var f3 = f1.Subtract(f2);
+        }
+        [Benchmark]
+        public void FloatTest()
+        {
+            var f1 = (float)a;
+            var f2 = (float)b;
+            var f3 = f1 - f2;
+        }
+        [Benchmark]
+        public void DoubleTest()
+        {
+            var f1 = (double)a;
+            var f2 = (double)b;
+            var f3 = f1 - f2;
+        }
+    }
+    public class MultiplyTests
+    {
+        int a = 2;
+        int b = 3;
+
+        [Benchmark]
+        public void Q24_8Test()
+        {
+            var f1 = new Fixed<Q24_8>(a);
+            var f2 = new Fixed<Q24_8>(b);
+            var f3 = f1.Multiply(f2);
+        }
+        [Benchmark]
+        public void Q16_16Test()
+        {
+            var f1 = new Fixed<Q16_16>(a);
+            var f2 = new Fixed<Q16_16>(b);
+            var f3 = f1.Multiply(f2);
+        }
+        [Benchmark]
+        public void Q8_24Test()
+        {
+            var f1 = new Fixed<Q8_24>(a);
+            var f2 = new Fixed<Q8_24>(b);
+            var f3 = f1.Multiply(f2);
+        }
+        [Benchmark]
+        public void FloatTest()
+        {
+            var f1 = (float)a;
+            var f2 = (float)b;
+            var f3 = f1 * f2;
+        }
+        [Benchmark]
+        public void DoubleTest()
+        {
+            var f1 = (double)a;
+            var f2 = (double)b;
+            var f3 = f1 * f2;
+        }
+    }
+    public class DivideTests
+    {
+        int a = 2;
+        int b = 3;
+
+        [Benchmark]
+        public void Q24_8Test()
+        {
+            var f1 = new Fixed<Q24_8>(a);
+            var f2 = new Fixed<Q24_8>(b);
+            var f3 = f1.Divide(f2);
+        }
+        [Benchmark]
+        public void Q16_16Test()
+        {
+            var f1 = new Fixed<Q16_16>(a);
+            var f2 = new Fixed<Q16_16>(b);
+            var f3 = f1.Divide(f2);
+        }
+        [Benchmark]
+        public void Q8_24Test()
+        {
+            var f1 = new Fixed<Q8_24>(a);
+            var f2 = new Fixed<Q8_24>(b);
+            var f3 = f1.Divide(f2);
+        }
+        [Benchmark]
+        public void FloatTest()
+        {
+            var f1 = (float)a;
+            var f2 = (float)b;
+            var f3 = f1 / f2;
+        }
+        [Benchmark]
+        public void DoubleTest()
+        {
+            var f1 = (double)a;
+            var f2 = (double)b;
+            var f3 = f1 / f2;
+        }
+    }
+}
