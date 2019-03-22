@@ -40,8 +40,8 @@ namespace Benchmarky
 
     public class AddTests
     {
-        int a = 2;
-        int b = 3;
+        int a = 512;
+        int b = 42;
 
         [Benchmark]
         public void Q24_8Test()
@@ -81,8 +81,8 @@ namespace Benchmarky
     }
     public class SubtractTests
     {
-        int a = 2;
-        int b = 3;
+        int a = 512;
+        int b = 42;
 
         [Benchmark]
         public void Q24_8Test()
@@ -122,8 +122,8 @@ namespace Benchmarky
     }
     public class MultiplyTests
     {
-        int a = 2;
-        int b = 3;
+        int a = 512;
+        int b = 42;
 
         [Benchmark]
         public void Q24_8Test()
@@ -163,8 +163,8 @@ namespace Benchmarky
     }
     public class DivideTests
     {
-        int a = 2;
-        int b = 3;
+        int a = 512;
+        int b = 42;
 
         [Benchmark]
         public void Q24_8Test()
