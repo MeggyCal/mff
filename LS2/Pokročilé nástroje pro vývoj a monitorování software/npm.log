@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2019.2.18)  18 MAR 2019 16:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2019.3.25)  25 MAR 2019 15:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -835,7 +835,7 @@ Dictionary: translator-numbers-dictionary, Language: English
 sh.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 ) (./npm.nav)
-<./images/npm_logo.png, id=72, 225.84375pt x 150.5625pt>
+<./images/npm_logo.png, id=59, 225.84375pt x 150.5625pt>
 File: ./images/npm_logo.png Graphic file (type png)
 <use ./images/npm_logo.png>
 Package pdftex.def Info: ./images/npm_logo.png  used on input line 32.
@@ -888,39 +888,6 @@ thkerncmss.
 
 ] [16
 
-] [17
-
-] [18
-
-] [19
-
-] [20
-
-]
-[21
-
-] [22
-
-] [23
-
-] [24
-
-]
-\openout4 = `npm.vrb'.
-
- (./npm.vrb) [25
-
-] [26
-
-]
-\openout4 = `npm.vrb'.
-
- (./npm.vrb) [27
-
-] [28
-
- </usr/share/texmf-dist/tex/latex/beamer/beamericonarticle.pdf>] [29
-
 ]
 \tf@nav=\write6
 \openout6 = `npm.nav'.
@@ -931,35 +898,32 @@ thkerncmss.
 \tf@snm=\write8
 \openout8 = `npm.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 351.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 351.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 241.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 241.
  (./npm.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 351.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 351.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 241.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 241.
 Package rerunfilecheck Info: File `npm.out' has not changed.
-(rerunfilecheck)             Checksum: CB912CDA416B2AF3FEEE8B976CAEB9E9;220.
+(rerunfilecheck)             Checksum: 3B692C5240EA1E8F663990153AD085D8;210.
  ) 
 Here is how much of TeX's memory you used:
- 17520 strings out of 492616
- 332063 string characters out of 6135177
- 436597 words of memory out of 5000000
- 20958 multiletter control sequences out of 15000+600000
- 12833 words of font info for 46 fonts, out of 8000000 for 9000
+ 17410 strings out of 492616
+ 330043 string characters out of 6135177
+ 420013 words of memory out of 5000000
+ 20883 multiletter control sequences out of 15000+600000
+ 11814 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,20n,69p,770b,821s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,20n,63p,770b,769s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmss8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mss9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></u
-sr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmssi9.pfb></usr/share/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmtt10.pfb>
-Output written on npm.pdf (29 pages, 162513 bytes).
+mssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></
+usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on npm.pdf (16 pages, 102690 bytes).
 PDF statistics:
- 1274 PDF objects out of 1440 (max. 8388607)
- 1168 compressed objects within 12 object streams
- 65 named destinations out of 1000 (max. 500000)
- 142 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 527 PDF objects out of 1000 (max. 8388607)
+ 459 compressed objects within 5 object streams
+ 38 named destinations out of 1000 (max. 500000)
+ 148 words of extra memory for PDF output out of 10000 (max. 10000000)
 
