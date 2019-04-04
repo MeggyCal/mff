@@ -18,10 +18,12 @@
 \addtolength{\textwidth}{10pt}
 \addtolength{\textheight}{40pt}
 
+\setlength\parindent{0pt}
+
 \allsectionsfont{\sffamily\mdseries\larger}
 \subsubsectionfont{\it\sffamily\mdseries\larger}
 
-\def\MFF{Ma\-te\-ma\-ti\-c\-ko-fy\-zi\-kál\-ní fakult}
+\def\MFF{Matematicko-fyzikální fakult}
 \def\SKP{skrip\-tár\-na-knih\-ku\-pec\-tví-pa\-pír\-nic\-tví}
 \def\17l{17.~listopadu}
 \def\KK#1{Ke~Karlovu~#1}
@@ -30,6 +32,7 @@
 \def\Mfz{Matfyz}
 \def\mfk{matfyzák}
 \def\Mfk{Matfyzák}
+
 
 
 %adresa budovy má vlastní boxík
@@ -51,7 +54,11 @@
 \let\osubsection\subsection
 \renewcommand{\subsection}[1]{\vspace{-3pt}\osubsection*{#1}}
 
-\newcommand{\subsubsubsection}[1]{\vspace{-2pt}\subsubsection{\smaller\sffamily\emph{#1}}\vspace{-6pt}}
+\newcommand{\subsubsubsection}[1]{
+	\vspace{5pt}
+	\textbf{#1}
+	\\
+}
 
 \newcommand{\nadpis}[1]{ {\huge\textsf{\centerline{\textbf{#1}}\nobreak\vskip1.5\bigskipamount}}}
 
@@ -59,13 +66,14 @@
 
 \begin{document}
 
-\nadpis {Studentská kuchařka 2011/12}
+\nadpis {Studentská kuchařka 2019/20}
 
 \input{mainpage}	
 \input{uvodDoMatfyzu}
 	\input{coVyriditPredem}
-	\input{oganizaceFakulty}
+	\input{oganizace}
 	\input{studium}
+	
 	\input{fakultniBudovy}
 	\input{nefakultniBudovy}
 	\input{laby}
