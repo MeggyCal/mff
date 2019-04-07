@@ -1,0 +1,7 @@
+D:\git\mff\LS2\Pokročilé programování pro .NET I\dequeT\dequeT\bin\Debug\dequeT.exe.config
+D:\git\mff\LS2\Pokročilé programování pro .NET I\dequeT\dequeT\bin\Debug\dequeT.exe
+D:\git\mff\LS2\Pokročilé programování pro .NET I\dequeT\dequeT\bin\Debug\dequeT.pdb
+D:\git\mff\LS2\Pokročilé programování pro .NET I\dequeT\dequeT\obj\Debug\dequeT.csprojAssemblyReference.cache
+D:\git\mff\LS2\Pokročilé programování pro .NET I\dequeT\dequeT\obj\Debug\dequeT.csproj.CoreCompileInputs.cache
+D:\git\mff\LS2\Pokročilé programování pro .NET I\dequeT\dequeT\obj\Debug\dequeT.exe
+D:\git\mff\LS2\Pokročilé programování pro .NET I\dequeT\dequeT\obj\Debug\dequeT.pdb
