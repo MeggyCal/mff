@@ -1,0 +1,17 @@
+F:\git\mff\LS2\Pokročilé programování pro .NET I\dequeT\dequeTTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+F:\git\mff\LS2\Pokročilé programování pro .NET I\dequeT\dequeTTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+F:\git\mff\LS2\Pokročilé programování pro .NET I\dequeT\dequeTTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+F:\git\mff\LS2\Pokročilé programování pro .NET I\dequeT\dequeTTests\bin\Debug\dequeTTests.dll
+F:\git\mff\LS2\Pokročilé programování pro .NET I\dequeT\dequeTTests\bin\Debug\dequeTTests.pdb
+F:\git\mff\LS2\Pokročilé programování pro .NET I\dequeT\dequeTTests\bin\Debug\dequeT.exe
+F:\git\mff\LS2\Pokročilé programování pro .NET I\dequeT\dequeTTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+F:\git\mff\LS2\Pokročilé programování pro .NET I\dequeT\dequeTTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+F:\git\mff\LS2\Pokročilé programování pro .NET I\dequeT\dequeTTests\bin\Debug\dequeT.pdb
+F:\git\mff\LS2\Pokročilé programování pro .NET I\dequeT\dequeTTests\bin\Debug\dequeT.exe.config
+F:\git\mff\LS2\Pokročilé programování pro .NET I\dequeT\dequeTTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+F:\git\mff\LS2\Pokročilé programování pro .NET I\dequeT\dequeTTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+F:\git\mff\LS2\Pokročilé programování pro .NET I\dequeT\dequeTTests\obj\Debug\dequeTTests.csprojAssemblyReference.cache
+F:\git\mff\LS2\Pokročilé programování pro .NET I\dequeT\dequeTTests\obj\Debug\dequeTTests.csproj.CoreCompileInputs.cache
+F:\git\mff\LS2\Pokročilé programování pro .NET I\dequeT\dequeTTests\obj\Debug\dequeTTests.csproj.CopyComplete
+F:\git\mff\LS2\Pokročilé programování pro .NET I\dequeT\dequeTTests\obj\Debug\dequeTTests.dll
+F:\git\mff\LS2\Pokročilé programování pro .NET I\dequeT\dequeTTests\obj\Debug\dequeTTests.pdb
