@@ -1,9 +1,6 @@
-D:\git\mff\LS2\Pokročilé programování pro .NET I\dequeT\dequeT\bin\Debug\dequeT.exe.config
-D:\git\mff\LS2\Pokročilé programování pro .NET I\dequeT\dequeT\bin\Debug\dequeT.exe
 D:\git\mff\LS2\Pokročilé programování pro .NET I\dequeT\dequeT\bin\Debug\dequeT.pdb
 D:\git\mff\LS2\Pokročilé programování pro .NET I\dequeT\dequeT\obj\Debug\dequeT.csprojAssemblyReference.cache
 D:\git\mff\LS2\Pokročilé programování pro .NET I\dequeT\dequeT\obj\Debug\dequeT.csproj.CoreCompileInputs.cache
-D:\git\mff\LS2\Pokročilé programování pro .NET I\dequeT\dequeT\obj\Debug\dequeT.exe
 D:\git\mff\LS2\Pokročilé programování pro .NET I\dequeT\dequeT\obj\Debug\dequeT.pdb
 F:\git\mff\LS2\Pokročilé programování pro .NET I\dequeT\dequeT\obj\Debug\dequeT.csprojAssemblyReference.cache
 F:\git\mff\LS2\Pokročilé programování pro .NET I\dequeT\dequeT\obj\Debug\dequeT.csproj.CoreCompileInputs.cache
@@ -12,3 +9,6 @@ F:\git\mff\LS2\Pokročilé programování pro .NET I\dequeT\dequeT\obj\Debug\deq
 F:\git\mff\LS2\Pokročilé programování pro .NET I\dequeT\dequeT\bin\Debug\dequeT.exe.config
 F:\git\mff\LS2\Pokročilé programování pro .NET I\dequeT\dequeT\bin\Debug\dequeT.exe
 F:\git\mff\LS2\Pokročilé programování pro .NET I\dequeT\dequeT\bin\Debug\dequeT.pdb
+D:\git\mff\LS2\Pokročilé programování pro .NET I\dequeT\dequeT\bin\Debug\dequeT.dll.config
+D:\git\mff\LS2\Pokročilé programování pro .NET I\dequeT\dequeT\bin\Debug\dequeT.dll
+D:\git\mff\LS2\Pokročilé programování pro .NET I\dequeT\dequeT\obj\Debug\dequeT.dll
