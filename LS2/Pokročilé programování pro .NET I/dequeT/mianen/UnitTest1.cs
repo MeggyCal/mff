@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using DequeSpace;
 
-namespace Mianen.DataStructures.Tests
+namespace DataStructures.Tests
 {
     [TestClass()]
     public class DequeTests
