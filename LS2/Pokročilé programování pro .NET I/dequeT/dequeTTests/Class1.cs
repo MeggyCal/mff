@@ -104,7 +104,7 @@ namespace Mianen.DataStructures.Tests
                 d.Insert(i, i);
                 l.Insert(i, i);
                 Assert.IsTrue(ForEachEqual(d, l));
-                d.GetReversed();
+                d.Reverse();
                 l.Reverse();
                 Assert.IsTrue(ForEachEqual(d, l));
             }
@@ -119,7 +119,7 @@ namespace Mianen.DataStructures.Tests
             for (int i = 0; i < 10; i++)
             {
                 d.Insert(1, i);
-                d.GetReversed();
+                d.Reverse();
             }
             Assert.IsTrue(ForEachEqual(d, q));
         }
@@ -170,7 +170,7 @@ namespace Mianen.DataStructures.Tests
         public void ReverseInsert()
         {
             var d = new Deque<int> { 1, 2, 3, 4, 5 };
-            d.GetReversed();
+            d.Reverse();
 
             d.Insert(2, 11);
             d.Insert(0, 12);
@@ -185,7 +185,7 @@ namespace Mianen.DataStructures.Tests
             Assert.IsTrue(ForEachEqual(d, expected));
 
             expected.Reverse();
-            d.GetReversed();
+            d.Reverse();
             Assert.IsTrue(ForEachEqual(d, expected));
         }
 
@@ -670,7 +670,7 @@ namespace Mianen.DataStructures.Tests
                 foreach (string s in D)
                 {
                     if (s.StartsWith("A"))
-                        D.GetReversed();
+                        D.Reverse();
                 }
             });
         }
@@ -797,7 +797,7 @@ namespace Mianen.DataStructures.Tests
 
             Assert.AreEqual(1, D.IndexOf(2));
             Assert.AreEqual(9, D.IndexOf(10));
-            D.GetReversed();
+            D.Reverse();
         }
 
         [TestMethod()]
@@ -807,7 +807,7 @@ namespace Mianen.DataStructures.Tests
 
             Assert.AreEqual(1, D.IndexOf(2));
             Assert.AreEqual(9, D.IndexOf(10));
-            D.GetReversed();
+            D.Reverse();
             Assert.AreEqual(1, D.IndexOf(9));
             Assert.AreEqual(0, D.IndexOf(10));
         }
