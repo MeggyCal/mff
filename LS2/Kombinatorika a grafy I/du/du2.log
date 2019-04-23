@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.10)  14 APR 2019 15:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.10)  20 APR 2019 00:56
 entering extended mode
 **./du2.tex
 (du2.tex
@@ -469,17 +469,17 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 Here is how much of TeX's memory you used:
  1569 strings out of 493312
  17544 string characters out of 3129392
- 70891 words of memory out of 3000000
+ 72891 words of memory out of 3000000
  5141 multiletter control sequences out of 15000+200000
  6902 words of font info for 27 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 29i,11n,43p,222b,216s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 29i,11n,43p,333b,218s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
 lic/amsfonts/cm/cmbx12.pfb><C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/f
 onts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/NOGARE/AppData/Local/Program
 s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/NOGARE/AppData/
 Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on du2.pdf (1 page, 43922 bytes).
+Output written on du2.pdf (1 page, 48812 bytes).
 PDF statistics:
  22 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
