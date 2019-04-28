@@ -18,7 +18,8 @@
 \addtolength{\textwidth}{10pt}
 \addtolength{\textheight}{40pt}
 
-\setlength\parindent{0pt}
+\setlength\parindent{2em}
+\setcounter{page}{0}
 
 \allsectionsfont{\sffamily\mdseries\larger}
 \subsubsectionfont{\it\sffamily\mdseries\larger}
@@ -50,9 +51,9 @@
 \renewcommand{\section}[1]{\vspace{-8pt}\osection{#1}}
 
 \let\osubsubsection\subsubsection
-\renewcommand{\subsubsection}[1]{\vspace{-8pt}\osubsubsection*{#1}}
+\renewcommand{\subsubsection}[1]{\vspace{-8pt}\osubsubsection{#1}}
 \let\osubsection\subsection
-\renewcommand{\subsection}[1]{\vspace{-3pt}\osubsection*{#1}}
+\renewcommand{\subsection}[1]{\vspace{-3pt}\osubsection{#1}}
 
 \newcommand{\subsubsubsection}[1]{
 	\vspace{5pt}
@@ -62,18 +63,19 @@
 
 \newcommand{\nadpis}[1]{ {\huge\textsf{\centerline{\textbf{#1}}\nobreak\vskip1.5\bigskipamount}}}
 
-\renewcommand{\thesection}{\arabic{section}.}
+\renewcommand{\thesection}{\arabic{section}}
 
 \begin{document}
+\pagenumbering{gobble}
+\input{titlePage}
+\pagenumbering{arabic}
+\nadpis {Matfyzácká kuchařka}
 
-\nadpis {Studentská kuchařka 2019/20}
-
-\input{mainpage}	
+\input{mainPage}	
 \input{uvodDoMatfyzu}
-	\input{coVyriditPredem}
+%	\input{coVyriditPredem}
 	\input{oganizace}
-	\input{studium}
-	
+	\input{studium}	
 	\input{fakultniBudovy}
 	\input{nefakultniBudovy}
 	\input{laby}
