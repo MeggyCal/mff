@@ -1,12 +1,13 @@
+#version 300 es
 precision mediump float;
 
-attribute vec3 vertPosition;
-attribute vec2 vertTexCoord;
-attribute vec3 vertNormal;
+in vec3 vertPosition;
+in vec2 vertTexCoord;
+in vec3 vertNormal;
 
-varying vec2 fragTexCoord;
-varying vec3 fragNormal;
-varying vec3 fragPosition;
+out vec2 fragTexCoord;
+out vec3 fragNormal;
+out vec3 fragPosition;
 
 uniform mat4 mWorld;
 uniform mat4 mView;
