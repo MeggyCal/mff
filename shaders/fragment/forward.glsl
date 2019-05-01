@@ -11,9 +11,9 @@ in vec2 fragTexCoord;
 in vec3 fragNormal;
 in vec3 fragPosition;
 
-out vec4 FragColor;
-
 uniform sampler2D sampler;
+
+out vec4 FragColor;
 
 vec3 ambientLightIntensity 	= vec3(0.2, 0.2, 0.2);
 light sun 		= light(normalize(vec3( 0.0, 0.0,-1.0)), vec3(0.8, 0.8, 0.8));
