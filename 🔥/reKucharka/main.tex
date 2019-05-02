@@ -20,19 +20,12 @@
 
 \setlength\parindent{2em}
 \setcounter{page}{0}
+\setcounter{tocdepth}{2}
 
 \allsectionsfont{\sffamily\mdseries\larger}
 \subsubsectionfont{\it\sffamily\mdseries\larger}
 
-\def\MFF{Matematicko-fyzikální fakult}
 \def\SKP{skrip\-tár\-na-knih\-ku\-pec\-tví-pa\-pír\-nic\-tví}
-\def\17l{17.~listopadu}
-\def\KK#1{Ke~Karlovu~#1}
-\def\A#1{Praha~#1}
-\def\mfz{matfyz}
-\def\Mfz{Matfyz}
-\def\mfk{matfyzák}
-\def\Mfk{Matfyzák}
 
 
 
@@ -47,30 +40,21 @@
 \end{center}
 }
 
-\let\osection\section
-\renewcommand{\section}[1]{\vspace{-8pt}\osection{#1}}
-
-\let\osubsubsection\subsubsection
-\renewcommand{\subsubsection}[1]{\vspace{-8pt}\osubsubsection{#1}}
-\let\osubsection\subsection
-\renewcommand{\subsection}[1]{\vspace{-3pt}\osubsection{#1}}
-
 \newcommand{\subsubsubsection}[1]{
 	\vspace{5pt}
+	\noindent
 	\textbf{#1}
 	\\
 }
 
-\newcommand{\nadpis}[1]{ {\huge\textsf{\centerline{\textbf{#1}}\nobreak\vskip1.5\bigskipamount}}}
+\newcommand{\nadpis}[1]{ {\huge\textsf{\centerline{\textbf{#1}}\nobreak\vskip5\bigskipamount}}}
 
 \renewcommand{\thesection}{\arabic{section}}
 
 \begin{document}
 \pagenumbering{gobble}
 \input{titlePage}
-\pagenumbering{arabic}
 \nadpis {Matfyzácká kuchařka}
-
 \input{mainPage}	
 \input{uvodDoMatfyzu}
 %	\input{coVyriditPredem}
@@ -82,24 +66,19 @@
 	\input{zdrojeInformaci}
 	\input{spolekMatfyzak}
 	\input{skas}
-	\input{studentskaUnie}
+	\input{isic}
 \input{kolejeAMenzy}
 	\input{kolej17}
 	\input{dalsiKoleje}
-	\input{pridelovaniKoleje}
+%	\input{pridelovaniKoleje}
 	\input{nejdulezitejsiMenzyProMatfyzaky}		
 \input{hlavniMestoPraha}
-	\input{nejpouzivanejsiPotraviny}
-	\input{nejoblibenejsiHospody}
-	\input{cajovny}
-	\input{kina}	
-\input{mhd}
-	\input{jizdne}
-	\input{zCehoSeVlastneMHDsklada}
-	\input{specifikaProKolej17listopadu}
-	\input{idealniAlgoritmyMHD}
-\input{atlas}
-\input{zaver}	
+	\input{slovnicekProNeprazaky}
+	\input{mhd}
+	\input{volnyCas}
+\input{recepty}
+\input{mapkyAPlany}
+\input{zaver}
 		
 	  
 \end{document}
