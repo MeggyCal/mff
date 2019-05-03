@@ -13,7 +13,6 @@
 \addtolength{\hoffset}{13mm}
 \addtolength{\voffset}{-1in}
 \addtolength{\voffset}{20pt}
-\addtolength{\textheight}{1in}
 \addtolength{\textwidth}{0.8in}
 \addtolength{\textwidth}{10pt}
 \addtolength{\textheight}{40pt}
@@ -25,35 +24,28 @@
 \allsectionsfont{\sffamily\mdseries\larger}
 \subsubsectionfont{\it\sffamily\mdseries\larger}
 
-\def\SKP{skrip\-tár\-na-knih\-ku\-pec\-tví-pa\-pír\-nic\-tví}
-
-
-
 %adresa budovy má vlastní boxík
-\newcommand\BUAaP[3]{
-\begin{center}   \begin{tabularx}{0.9\textwidth}{ |l|X| }
-     \hline
-     \textsf{Adresa} & #1 \\ \hline
-     \textsf{Posluchárny} & #2 \\ \hline
-     \textsf{Osazenstvo} & #3 \\ \hline
-\end{tabularx}
-\end{center}
+\newcommand\BUAaP[4]{
+	\begin{center}
+	\begin{tabularx}{0.9\textwidth}{ |l|X| }
+		\hline
+	    \textsf{Adresa} & #1 \\ \hline
+	    \textsf{Posluchárny} & #2 \\ \hline
+	    \textsf{Osazenstvo} & #3 \\ \hline
+		\textsf{Kola} & #4 \\ \hline
+	\end{tabularx}
+	\end{center}
 }
 
 \newcommand{\subsubsubsection}[1]{
-	\vspace{5pt}
-	\noindent
-	\textbf{#1}
-	\\
+	\vspace{5pt} \noindent \textbf{#1} \\
 }
 
 \newcommand{\nadpis}[1]{ {\huge\textsf{\centerline{\textbf{#1}}\nobreak\vskip5\bigskipamount}}}
 
-\renewcommand{\thesection}{\arabic{section}}
-
 \begin{document}
-\pagenumbering{gobble}
 \input{titlePage}
+\newpage
 \nadpis {Matfyzácká kuchařka}
 \input{mainPage}	
 \input{uvodDoMatfyzu}
@@ -79,6 +71,8 @@
 \input{recepty}
 \input{mapkyAPlany}
 \input{zaver}
+\newpage
+\input{endPage}
 		
 	  
 \end{document}
