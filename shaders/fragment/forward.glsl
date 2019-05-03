@@ -7,9 +7,9 @@ struct light
 	vec3 color;
 };
 
-in vec2 fragTexCoord;
-in vec3 fragNormal;
-in vec3 fragPosition;
+in vec4 fragTexCoord;
+in vec4 fragNormal;
+in vec4 fragPosition;
 
 uniform sampler2D sampler;
 
@@ -21,9 +21,9 @@ light sun 		= light(normalize(vec3( 0.0, 0.0,-1.0)), vec3(0.8, 0.8, 0.8));
 
 void main()
 {
-	vec4 texture = texture(sampler, fragTexCoord);
+	vec4 texture = texture(sampler, fragTexCoord.xy);
 	vec3 lightIntensity =
 		ambientLightIntensity +
-		sun.color 	* max(dot(fragNormal, sun.direction	), 0.0);
+		sun.color 	* max(dot(fragNormal.xyz, sun.direction	), 0.0);
 	FragColor = vec4(texture.rgb * lightIntensity, texture.a);
 }
