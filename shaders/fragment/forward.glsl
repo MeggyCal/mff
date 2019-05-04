@@ -14,5 +14,5 @@ void main()
 	vec4 texPos = texture(uPositionBuffer, vertCoordinates);
 	vec4 texNormal = texture(uNormalBuffer, vertCoordinates);
 	vec4 texUV = texture(uUVBuffer, vertCoordinates);
-	FragColor = vec4(texPos.rgb+texNormal.rgb+texUV.rgb, 1.0);
+	FragColor = vec4(texUV.rgb, 1.0);
 }
