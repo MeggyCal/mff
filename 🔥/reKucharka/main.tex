@@ -1,6 +1,6 @@
 \documentclass[10pt]{article}
 
-\usepackage[a5paper]{geometry}
+\usepackage{geometry}
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
 \usepackage{hyperref}
@@ -9,10 +9,14 @@
 \usepackage{relsize}
 \usepackage{sectsty}
 
-\addtolength{\hoffset}{-1in}
-\addtolength{\hoffset}{13mm}
-\addtolength{\voffset}{-1in}
-\addtolength{\voffset}{20pt}
+\geometry{
+	a5paper,
+	left=10mm,
+	right=32mm,
+	top=10mm,	
+	bottom=32mm,
+}
+
 \addtolength{\textwidth}{0.8in}
 \addtolength{\textwidth}{10pt}
 \addtolength{\textheight}{40pt}
@@ -24,8 +28,8 @@
 \allsectionsfont{\sffamily\mdseries\larger}
 \subsubsectionfont{\it\sffamily\mdseries\larger}
 
-%adresa budovy má vlastní boxík
-\newcommand\BUAaP[4]{
+%adresa budovy
+\newcommand\budovaInfo[4]{
 	\begin{center}
 	\begin{tabularx}{0.9\textwidth}{ |l|X| }
 		\hline
@@ -35,17 +39,48 @@
 		\textsf{Kola} & #4 \\ \hline
 	\end{tabularx}
 	\end{center}
+
+}
+\newcommand\budovaKratce[2]{
+	\begin{center}
+	\begin{tabularx}{0.9\textwidth}{ |l|X| }
+		\hline
+	    \textsf{Adresa} & #1 \\ \hline
+	    \textsf{Osazenstvo} & #2 \\ \hline
+	\end{tabularx}
+	\end{center}
+
+}
+%adresa budovy - zkracena
+\newcommand\budovaAdresa[1]{
+	\begin{center}
+	\begin{tabularx}{0.9\textwidth}{ |l|X| }
+		\hline
+	    \textsf{Adresa budovy} & #1 \\ \hline
+	\end{tabularx}
+	\end{center}
 }
 
 \newcommand{\subsubsubsection}[1]{
-	\vspace{5pt} \noindent \textbf{#1} \\
+	\vspace{5pt}
+	\noindent
+	\textbf{#1}\\
 }
 
-\newcommand{\nadpis}[1]{ {\huge\textsf{\centerline{\textbf{#1}}\nobreak\vskip5\bigskipamount}}}
+\newcommand{\nadpis}[1]{{
+	\huge
+	\textsf{
+		\centerline{
+			\textbf{#1}
+		}
+		\nobreak
+		\vskip5
+		\bigskipamount
+	}
+}}
 
 \begin{document}
 \input{titlePage}
-\newpage
 \nadpis {Matfyzácká kuchařka}
 \input{mainPage}	
 \input{uvodDoMatfyzu}
@@ -73,6 +108,4 @@
 \input{zaver}
 \newpage
 \input{endPage}
-		
-	  
 \end{document}
