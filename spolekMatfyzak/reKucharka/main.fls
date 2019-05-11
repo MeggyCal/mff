@@ -1,0 +1,238 @@
+PWD f:/git/mff/spolekMatfyzak/reKucharka
+INPUT C:/Users/NOGARE/AppData/Local/MiKTeX/2.9/miktex/data/le/pdftex/pdflatex.fmt
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/main.tex
+OUTPUT f:/git/mff/spolekMatfyzak/reKucharka/main.log
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/article.cls
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/article.cls
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/size10.clo
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/size10.clo
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/tex/latex/geometry/geometry.sty
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/tex/latex/geometry/geometry.sty
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics/keyval.sty
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics/keyval.sty
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/ifpdf.sty
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/ifpdf.sty
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/ifvtex.sty
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/ifvtex.sty
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/tex/generic/ifxetex/ifxetex.sty
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/tex/generic/ifxetex/ifxetex.sty
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/tex/latex/geometry/geometry.cfg
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/tex/latex/geometry/geometry.cfg
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/inputenc.sty
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/inputenc.sty
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/utf8.def
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/utf8.def
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/t1enc.dfu
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/t1enc.dfu
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/ot1enc.dfu
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/ot1enc.dfu
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/omsenc.dfu
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/omsenc.dfu
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics/graphicx.sty
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics/graphicx.sty
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics/graphics.sty
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics/graphics.sty
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics/trig.sty
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics/trig.sty
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics-cfg/graphics.cfg
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics-cfg/graphics.cfg
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics-def/pdftex.def
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics-def/pdftex.def
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/tex/latex/hyperref/hyperref.sty
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/tex/latex/hyperref/hyperref.sty
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/hobsub-hyperref.sty
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/hobsub-hyperref.sty
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/hobsub-hyperref.sty
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/hobsub-generic.sty
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/hobsub-generic.sty
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/tex/latex/oberdiek/auxhook.sty
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/tex/latex/oberdiek/auxhook.sty
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/tex/latex/oberdiek/kvoptions.sty
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/tex/latex/oberdiek/kvoptions.sty
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/tex/latex/hyperref/pd1enc.def
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/tex/latex/hyperref/pd1enc.def
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/tex/latex/00miktex/hyperref.cfg
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/tex/latex/00miktex/hyperref.cfg
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/tex/latex/url/url.sty
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/tex/latex/url/url.sty
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/tex/latex/hyperref/hpdftex.def
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/tex/latex/hyperref/hpdftex.def
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/tex/latex/oberdiek/rerunfilecheck.sty
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/tex/latex/oberdiek/rerunfilecheck.sty
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/tex/latex/tools/tabularx.sty
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/tex/latex/tools/tabularx.sty
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/tex/latex/tools/array.sty
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/tex/latex/tools/array.sty
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/tex/generic/babel/babel.sty
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/tex/generic/babel/babel.sty
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/tex/generic/babel/switch.def
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/tex/latex/arabi/bblopts.cfg
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/tex/latex/arabi/bblopts.cfg
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/tex/latex/babel-czech/czech.ldf
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/tex/latex/babel-czech/czech.ldf
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/tex/generic/babel/babel.def
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/tex/generic/babel/switch.def
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/tex/latex/ltxmisc/relsize.sty
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/tex/latex/ltxmisc/relsize.sty
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/tex/latex/sectsty/sectsty.sty
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/tex/latex/sectsty/sectsty.sty
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/tex/latex/tools/longtable.sty
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/tex/latex/tools/longtable.sty
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/main.aux
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/main.aux
+OUTPUT f:/git/mff/spolekMatfyzak/reKucharka/main.aux
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/tex/context/base/supp-pdf.mkii
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/tex/context/base/supp-pdf.mkii
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/tex/latex/oberdiek/epstopdf-base.sty
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/tex/latex/oberdiek/epstopdf-base.sty
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/tex/latex/oberdiek/grfext.sty
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/tex/latex/oberdiek/grfext.sty
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/tex/latex/hyperref/nameref.sty
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/tex/latex/hyperref/nameref.sty
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/gettitlestring.sty
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/gettitlestring.sty
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/main.out
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/main.out
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/main.out
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/main.out
+OUTPUT f:/git/mff/spolekMatfyzak/reKucharka/main.pdf
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/main.out
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/main.out
+OUTPUT f:/git/mff/spolekMatfyzak/reKucharka/main.out
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/titlePage.tex
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/titlePage.tex
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmr12.tfm
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmbx12.tfm
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmssbx10.tfm
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmss12.tfm
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmss17.tfm
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/main.toc
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/main.toc
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmbx10.tfm
+OUTPUT f:/git/mff/spolekMatfyzak/reKucharka/main.toc
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmti10.tfm
+INPUT C:/Users/NOGARE/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmr17.tfm
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmss17.tfm
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmssbx10.tfm
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/mainPage.tex
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/mainPage.tex
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmtt10.tfm
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/uvodDoMatfyzu.tex
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/uvodDoMatfyzu.tex
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/coVyriditPredem.tex
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/coVyriditPredem.tex
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmr12.tfm
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmbx12.tfm
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmssbx10.tfm
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmss12.tfm
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/oganizace.tex
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/oganizace.tex
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmssi10.tfm
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmssi12.tfm
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/studium.tex
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/studium.tex
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/fakultniBudovy.tex
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/fakultniBudovy.tex
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmss10.tfm
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/nefakultniBudovy.tex
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/nefakultniBudovy.tex
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/laby.tex
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/laby.tex
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/zdrojeInformaci.tex
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/zdrojeInformaci.tex
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/spolekMatfyzak.tex
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/spolekMatfyzak.tex
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/skas.tex
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/skas.tex
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/isic.tex
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/isic.tex
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/kolejeAMenzy.tex
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/kolejeAMenzy.tex
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/kolej17.tex
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/kolej17.tex
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/dalsiKoleje.tex
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/dalsiKoleje.tex
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/nejdulezitejsiMenzyProMatfyzaky.tex
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/nejdulezitejsiMenzyProMatfyzaky.tex
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/hlavniMestoPraha.tex
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/hlavniMestoPraha.tex
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/slovnicekProNeprazaky.tex
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/slovnicekProNeprazaky.tex
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/mhd.tex
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/mhd.tex
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/omscmr.fd
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/omscmr.fd
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/volnyCas.tex
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/volnyCas.tex
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/recepty.tex
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/recepty.tex
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/mapkyAPlany.tex
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/mapkyAPlany.tex
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/karlov.pdf
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/karlov.pdf
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/karlov.pdf
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/karlov.pdf
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/hostivar.pdf
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/hostivar.pdf
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/hostivar.pdf
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/hostivar.pdf
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/zaver.tex
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/zaver.tex
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/endPage.tex
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/endPage.tex
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/QR/is.png
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/QR/is.png
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/QR/is.png
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/QR/is.png
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/QR/is.png
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/QR/studijni.png
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/QR/studijni.png
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/QR/studijni.png
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/QR/studijni.png
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/QR/studijni.png
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/QR/skas.png
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/QR/skas.png
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/QR/skas.png
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/QR/skas.png
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/QR/skas.png
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/QR/matfyzak.png
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/QR/matfyzak.png
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/QR/matfyzak.png
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/QR/matfyzak.png
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/QR/matfyzak.png
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/QR/facebook.png
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/QR/facebook.png
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/QR/facebook.png
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/QR/facebook.png
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/QR/facebook.png
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/QR/knihovna.png
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/QR/knihovna.png
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/QR/knihovna.png
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/QR/knihovna.png
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/QR/knihovna.png
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/main.aux
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/main.out
+INPUT f:/git/mff/spolekMatfyzak/reKucharka/main.out
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss12.pfb
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss12.pfb
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss17.pfb
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss17.pfb
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi12.pfb
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi12.pfb
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb
+INPUT C:/Users/NOGARE/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb
