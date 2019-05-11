@@ -12,21 +12,21 @@ namespace paralizer
             var stopwatch = new Stopwatch();
             List<int> array = new List<int>();
             Random randNum = new Random();
-            for (int i = 0; i < 100*1000; i++)
+            for (int i = 0; i < 400*1000; i++)
             {
                 array.Add(randNum.Next(int.MinValue, int.MaxValue));
             }
-
+            /*
             stopwatch.Start();
             List<int> sortedSerialized = MergeSort(array, 0);
             stopwatch.Stop();
             Console.WriteLine("serialized done in: " + stopwatch.ElapsedMilliseconds + "ms");
-
+            */
             stopwatch.Restart();
-            List<int> sortedParrallel = MergeSort(array, 2);
+            List<int> sortedParrallel = MergeSort(array, 3);
             stopwatch.Stop();
             Console.WriteLine("parrallel done in: " + stopwatch.ElapsedMilliseconds + "ms");
-
+            /*
             bool correctness = true;
             for (int i = 0; i < array.Count; i++)
             {
@@ -34,8 +34,8 @@ namespace paralizer
                 {
                     correctness = false;
                 }
-            }
             Console.WriteLine("are sorted arrays same? " + correctness);
+            }*/
 
             Console.ReadKey();
         }
