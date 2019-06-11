@@ -12,7 +12,7 @@
         <Button x:Name="button_Copy" Content="oO" HorizontalAlignment="Left" Height="30" Margin="1198,10,0,0" VerticalAlignment="Top" Width="30" Background="#FF676767" Click="Button_Copy_Click"/>
         <Button x:Name="button_Copy1" Content="-" HorizontalAlignment="Left" Height="30" Margin="1163,10,0,0" VerticalAlignment="Top" Width="30" Background="#FF676767"/>
 
-        <ListView x:Name="listView" HorizontalAlignment="Left" Height="655" Margin="0,55,0,0" VerticalAlignment="Top" Width="344" Background="#FF22024D">
+        <ListView x:Name="listView" HorizontalAlignment="Left" Height="655" Margin="0,55,0,0" VerticalAlignment="Top" Width="344" Background="#FF32086A">
             <ListView.View>
                 <GridView>
                     <GridViewColumn/>
